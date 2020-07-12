@@ -6,7 +6,6 @@ $('#banner').slick({
     arrows: false
 });
 $('#brand').slick({
-    
     slidesToShow: 5,
     slidesToScroll: 2,
     autoplay: true,

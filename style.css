@@ -36,11 +36,15 @@ nav a {
 }
 
 #banner {
-  height: 300vh;
+  height: 100vh;
 }
 
 #banner img {
   padding-top: 300px;
+}
+
+#banner .slick-slide {
+  width: 300px;
 }
 
 footer {

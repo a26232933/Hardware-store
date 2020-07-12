@@ -30,9 +30,13 @@ nav{
 }
 
 #banner{    
-    height: 300vh;
+    height: 100vh;
     img{
         padding-top: 300px;
+        
+    }
+    .slick-slide {
+        width: 300px;
     }
        
 }
