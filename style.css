@@ -7,7 +7,6 @@
 }
 
 body {
-  background-color: #324651;
   background-size: 300px;
   height: 8502px;
   width: 1920px;
@@ -16,8 +15,8 @@ body {
 nav {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 15% 10% 10% 10% 10% 10% 10% 10% 15%;
-      grid-template-columns: 15% 10% 10% 10% 10% 10% 10% 10% 15%;
+  -ms-grid-columns: 30% 5% 5% 5% 10% 5% 5% 5% 30%;
+      grid-template-columns: 30% 5% 5% 5% 10% 5% 5% 5% 30%;
   padding: 30px 5px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
@@ -27,9 +26,10 @@ nav {
   background: white;
   width: 100%;
   border-bottom: 1px solid black;
-  font-size: 30px;
+  font-size: 15px;
   text-align: center;
   height: 100px;
+  letter-spacing: 3px;
 }
 
 nav a {
@@ -38,8 +38,9 @@ nav a {
 }
 
 #banner {
-  height: 110px;
-  width: 392px;
+  background-color: #324651;
+  height: 951px;
+  width: 100%;
 }
 
 #banner img {
