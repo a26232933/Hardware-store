@@ -1,13 +1,13 @@
 *{
     font-family:微軟正黑體;
-    
+    padding: 0;
+    margin: 0;
    
 }
 body{
     
-    background-size: 300px;
-    height:8502px;
-    width: 1920px;
+    height:auto;
+    width: 100%;
 }
 nav{
     display: grid;
@@ -18,11 +18,11 @@ nav{
     z-index: 1;
     background:white;
     width:100%;
-    border-bottom:1px solid black;
     font-size: 15px;
     text-align: center;
     height:100px;
     letter-spacing: 3px;
+    font-weight:800;
     
 
     a{
@@ -32,23 +32,32 @@ nav{
 }
 
 #banner{    
+
     background-color: #324651;
-    height: 951px;
+    height: 100vh;
     width: 100%;
-    img{
-        padding-top: 452px;
-        padding-left: 764px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > div{
+        width: 100%;
+        text-align: center;
     }
+    
+}
+
+#brand{
+    width: 50%;
+    margin: 40px auto  ;
+
     .slick-slide {
         width: 300px;
-    }
-       
+    }   
+    
 }
-@mixin section-box {
-    overflow: hidden;
-    display: grid;
-   grid-template-columns: repeat(2, 1fr);
-}
+
 
 
 
@@ -90,6 +99,6 @@ nav{
 footer {
     text-align: center;
     margin-top: 100px;
-    padding: 80px 0;
+    padding-top: 7935px 0;
     color: black;
 }
