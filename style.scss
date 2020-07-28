@@ -32,7 +32,6 @@ nav{
 }
 
 #banner{    
-
     background-color: #324651;
     height: 100vh;
     width: 100%;
@@ -49,7 +48,7 @@ nav{
 }
 
 #brand{
-    width: 50%;
+    width: 40%;
     margin: 40px auto  ;
 
     .slick-slide {
@@ -58,47 +57,50 @@ nav{
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
+#Services{
+    width: 100%;
     text-align: center;
-    margin-top: 100px;
-    padding-top: 7935px 0;
-    color: black;
+    height: 100vh;
 }
+
+#server{
+    font-size: 100px;
+    color:#2c4755;
+}
+
+#p1{
+    width: 50%;
+    margin: auto;
+}
+
+#our{
+    margin-top: 250px; 
+}
+
+@mixin section-box {
+    overflow: hidden;
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+
+   img{
+       width: 60%;
+       padding-top: 100px;
+       padding-left: 150px;
+   }
+   div {
+    padding-top: 100px;
+    color:#ffe600;
+    font-size: 60px;
+    p {
+        padding: 50px 0;
+        color: white;
+        font-size: 20px;
+        }
+    }
+}
+#development{
+    @include section-box();
+    background-color: #324651;
+    height: 80vh;
+
+ }
