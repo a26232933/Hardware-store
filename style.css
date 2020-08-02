@@ -147,7 +147,7 @@ nav a {
 #contact form {
   widows: 80%;
   margin: 0 auto;
-  padding: 100px;
+  padding: 200px;
 }
 
 #contact form div {
@@ -183,7 +183,6 @@ nav a {
 }
 
 #contact input[type="submit"]:hover {
-  background-color: white;
   color: black;
   border: 1px solid #252525;
 }
